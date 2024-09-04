@@ -1153,6 +1153,9 @@ only screen and (max-width: 767.98px) {
 .mt-30 {
     margin-top: 30px;
 }
+.mt-40 {
+    margin-top: 40px;
+}
 
 .mtn-20 {
     margin-top: -20px;
@@ -2452,7 +2455,7 @@ only screen and (max-width: 767.98px) {
 }
 .product-carousel-4_2:last-child {
   
-    justify-content: start;
+    /* justify-content: start; */
 
      
 }
