@@ -1122,8 +1122,8 @@ only screen and (max-width: 767.98px) {
 
 @media only screen and (max-width: 767.98px) {
     .section-padding {
-        padding-top: 63px;
-        padding-bottom: 63px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 .pt-30 {
@@ -1883,7 +1883,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .mobile-logo {
-    max-width: 140px;
+    max-width: 60px;
     width: 100%;
 }
 
@@ -3734,7 +3734,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .breadcrumb-wrap {
-    padding: 45px 0;
+    padding: 35px 0;
     text-align: center;
 }
 
@@ -3764,7 +3764,7 @@ only screen and (max-width: 767.98px) {
 
 .breadcrumb-wrap .breadcrumb .breadcrumb-item a {
     color: #222222;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     text-transform: capitalize;
 }
@@ -3776,7 +3776,7 @@ only screen and (max-width: 767.98px) {
 .breadcrumb-wrap .breadcrumb .breadcrumb-item:before {
     color: #7e7e7e;
     content: "/";
-    font-size: 12px;
+    font-size: 18px;
     margin: 0 5px;
 }
 
@@ -3786,7 +3786,7 @@ only screen and (max-width: 767.98px) {
 
 .breadcrumb-wrap .breadcrumb .breadcrumb-item.active {
     color: #d70404;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     margin-top: 2px;
     text-transform: capitalize;
@@ -3814,6 +3814,11 @@ only screen and (max-width: 767.98px) {
     margin-bottom: 35px;
 }
 
+@media only screen and (max-width: 767.98px) {
+    .sidebar-single  {
+        margin-bottom: 0;
+    }
+}
 .sidebar-single .sidebar-title {
     display: inline-block;
     position: relative;
@@ -6235,11 +6240,26 @@ only screen and (max-width: 767.98px) {
     border-bottom: 1px solid #2f2f2f;
 }
 
+
+
 .newsletter-wrapper .title {
     line-height: 1;
-    padding-bottom: 24px;
+    padding-bottom: 40px;
 }
 
+@media only screen and (max-width: 767.98px) {
+    .newsletter-area  {
+        padding-bottom: 0;
+    }
+
+    .newsletter-wrapper .title {
+       
+        padding-bottom: 24px;
+    }
+}
+.logo {
+    max-width: 70px;
+  }
 .newsletter-wrapper .newsletter-inner {
     max-width: 600px;
     max-width: 100%;

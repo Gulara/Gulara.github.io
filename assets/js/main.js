@@ -408,3 +408,29 @@
 	
 })(jQuery);
 
+document.addEventListener(
+	'DOMContentLoaded', 
+	function() {
+	
+	  var odometerVideos = document.getElementById("odometerVideos");
+	  odometerVideos.textContent = 250;
+	
+  }, false);
+document.addEventListener(
+	'DOMContentLoaded', 
+	function() {
+	
+	  var odometerView = document.getElementById("odometerView");
+	  odometerView.textContent = 3697098;
+	
+  }, false);
+
+
+document.addEventListener(
+	'DOMContentLoaded', 
+	function() {
+	
+	  var odometerSubscriber = document.getElementById("odometerSubscriber");
+	  odometerSubscriber.textContent = 14700;
+	
+  }, false);

@@ -285,6 +285,9 @@ table tbody {
     -webkit-animation: slideInDown 0.4s forwards;
     animation: slideInDown 0.4s forwards;
 }
+.logo {
+    max-width: 70px;
+  }
 
 .modal .modal-header {
     padding: 0 10px;
@@ -1122,8 +1125,8 @@ only screen and (max-width: 767.98px) {
 
 @media only screen and (max-width: 767.98px) {
     .section-padding {
-        padding-top: 63px;
-        padding-bottom: 63px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 .pt-30 {
@@ -1883,7 +1886,7 @@ only screen and (max-width: 767.98px) {
 }
 
 .mobile-logo {
-    max-width: 140px;
+    max-width: 60px;
     width: 100%;
 }
 
@@ -3813,7 +3816,11 @@ only screen and (max-width: 767.98px) {
 .sidebar-single {
     margin-bottom: 35px;
 }
-
+@media only screen and (max-width: 767.98px) {
+    .sidebar-single  {
+        margin-bottom: 0;
+    }
+}
 .sidebar-single .sidebar-title {
     display: inline-block;
     position: relative;
@@ -6234,10 +6241,20 @@ only screen and (max-width: 767.98px) {
     padding-bottom: 45px;
     border-bottom: 1px solid #2f2f2f;
 }
-
 .newsletter-wrapper .title {
     line-height: 1;
-    padding-bottom: 24px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .newsletter-area  {
+        padding-bottom: 0;
+    }
+
+    .newsletter-wrapper .title {
+       
+        padding-bottom: 24px;
+    }
 }
 
 .newsletter-wrapper .newsletter-inner {
