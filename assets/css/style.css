@@ -370,6 +370,8 @@ table tbody {
   .slick-arrow-style:hover button.slick-arrow.slick-prev {
     left: -20px;
   }
+
+
 }
 
 .slick-arrow-style:hover button.slick-arrow.slick-next {
@@ -426,6 +428,7 @@ table tbody {
   text-align: center;
   background-color: #efefef;
 }
+
 
 .slick-arrow-style__append button.slick-arrow.slick-prev {
   right: 40px !important;
@@ -736,6 +739,19 @@ table tbody {
 
 .slick-slider .slick-slide > div:last-child {
   margin-bottom: 0;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 767.98px) {
+  .slick-arrow-style__append button.slick-arrow  {
+   margin-top: 230px;
+   right: 160px  !important; 
+  }
+  .slick-arrow-style__append button.slick-arrow.slick-prev {
+    right: 200px  !important; 
+  }
 }
 
 /* ----scroll to top css start ----*/
