@@ -103,14 +103,14 @@
 			breakpoint: 768,
 			settings: {
 				slidesToShow: 2,
-				arrows: false
+				
 			}
 		},
 		{
 			breakpoint: 480,
 			settings: {
 				slidesToShow: 1,
-				arrows: false
+				// arrows: false
 			}
 		}]
 	});
@@ -413,7 +413,7 @@ document.addEventListener(
 	function() {
 	
 	  var odometerVideos = document.getElementById("odometerVideos");
-	  odometerVideos.textContent = 250;
+	  odometerVideos.textContent = 260;
 	
   }, false);
 document.addEventListener(
@@ -421,7 +421,7 @@ document.addEventListener(
 	function() {
 	
 	  var odometerView = document.getElementById("odometerView");
-	  odometerView.textContent = 3697098;
+	  odometerView.textContent = 4187963;
 	
   }, false);
 
@@ -431,6 +431,6 @@ document.addEventListener(
 	function() {
 	
 	  var odometerSubscriber = document.getElementById("odometerSubscriber");
-	  odometerSubscriber.textContent = 14700;
+	  odometerSubscriber.textContent = 15700;
 	
   }, false);

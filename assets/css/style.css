@@ -81,6 +81,8 @@ h1,
   font-size: 36px;
 }
 
+
+
 h2,
 .h2 {
   font-size: 30px;
@@ -2559,6 +2561,7 @@ table tbody {
 .hero-slider{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
  
 }
 .hero-slider-item {
@@ -2604,8 +2607,27 @@ justify-content: center;
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .hero-slider-content .slide-title {
-    font-size: 50px;
+    font-size: 45px;
   }
+
+  .hero-slider-content {
+    max-width: 400px;
+  }
+  .hero-slider-item {
+   width: 40%;
+  }
+
+  .bg-img {
+   height: 250px;
+   background-size: cover;
+  }
+
+  .slide-desc {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -2613,6 +2635,17 @@ justify-content: center;
     font-size: 40px;
     line-height: 1.2;
   }
+
+  .hero-slider-item {
+    width: 100%;
+   }
+
+   .bg-img {
+    height: 200px;
+    background-size: contain;
+   }
+
+   
 }
 
 @media only screen and (max-width: 575.98px) {
@@ -2702,7 +2735,7 @@ justify-content: center;
   height: 100%;
   content: "";
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   display: none;
 }
 
@@ -6514,6 +6547,7 @@ font-weight: bold;
 
 }
 
+
 .odometer.odometer-auto-theme, .odometer.odometer-theme-default {
   display: inline-block;
   vertical-align: middle;
@@ -6602,4 +6636,26 @@ font-weight: bold;
 }
 .odometer.odometer-auto-theme .odometer-value, .odometer.odometer-theme-default .odometer-value {
   text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .odometer, .funfact-area-span {
+    font-size: 25px;}
+    .featured-area {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .newsletter-area {
+      padding-bottom: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 767.98px) {
+  .funfact-area{
+    margin-top: 0;
+   }
+
+   .odometer,.funfact-area-span {
+    font-size: 26px;
+   }
 }
