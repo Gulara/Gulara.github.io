@@ -741,9 +741,7 @@ table tbody {
   margin-bottom: 0;
 }
 
-.mt-50 {
-  margin-top: 50px;
-}
+
 @media only screen and (max-width: 767.98px) {
   .slick-arrow-style__append button.slick-arrow  {
    margin-top: 230px;
@@ -751,6 +749,9 @@ table tbody {
   }
   .slick-arrow-style__append button.slick-arrow.slick-prev {
     right: 250px  !important; 
+  }
+  .sm-mt-50 {
+    margin-top: 50px;
   }
 }
 @media only screen and (max-width: 48px) {
