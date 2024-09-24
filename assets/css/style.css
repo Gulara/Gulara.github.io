@@ -747,10 +747,19 @@ table tbody {
 @media only screen and (max-width: 767.98px) {
   .slick-arrow-style__append button.slick-arrow  {
    margin-top: 230px;
-   right: 160px  !important; 
+   right: 200px  !important; 
   }
   .slick-arrow-style__append button.slick-arrow.slick-prev {
-    right: 200px  !important; 
+    right: 250px  !important; 
+  }
+}
+@media only screen and (max-width: 48px) {
+  .slick-arrow-style__append button.slick-arrow  {
+   margin-top: 230px;
+   right: 150px  !important; 
+  }
+  .slick-arrow-style__append button.slick-arrow.slick-prev {
+    right: 220px  !important; 
   }
 }
 
