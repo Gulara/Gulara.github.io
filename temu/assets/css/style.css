@@ -1494,7 +1494,7 @@ only screen and (max-width: 767.98px) {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .main-menu ul li {
@@ -1533,7 +1533,7 @@ only screen and (max-width: 767.98px) {
 .main-menu ul li ul.dropdown {
     top: calc(100% - 1px);
     left: 0;
-    width: 220px;
+    width: 160px;
     position: absolute;
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
