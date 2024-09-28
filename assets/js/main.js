@@ -413,7 +413,7 @@ document.addEventListener(
 	function() {
 	
 	  var odometerVideos = document.getElementById("odometerVideos");
-	  odometerVideos.textContent = 260;
+	  odometerVideos.textContent = 265;
 	
   }, false);
 document.addEventListener(
@@ -421,8 +421,8 @@ document.addEventListener(
 	function() {
 	
 	  var odometerView = document.getElementById("odometerView");
-	  odometerView.textContent = 4187963;
-	
+	  odometerView.textContent = 4525943;
+	  
   }, false);
 
 
@@ -431,6 +431,6 @@ document.addEventListener(
 	function() {
 	
 	  var odometerSubscriber = document.getElementById("odometerSubscriber");
-	  odometerSubscriber.textContent = 15700;
+	  odometerSubscriber.textContent = 16200;
 	
   }, false);
