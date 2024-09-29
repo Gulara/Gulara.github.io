@@ -87,66 +87,66 @@
 
 
 	// product carousel active js
-	// $('.product-carousel-4').slick({
-	// 	speed: 1000,
-	// 	slidesToShow: 4,
-	// 	adaptiveHeight: true,
-	// 	prevArrow: '<button type="button" class="slick-prev"><i class="pe-7s-angle-left"></i></button>',
-	// 	nextArrow: '<button type="button" class="slick-next"><i class="pe-7s-angle-right"></i></button>',
-	// 	responsive: [{
-	// 		breakpoint: 992,
-	// 		settings: {
-	// 			slidesToShow: 3
-	// 		}
-	// 	},
-	// 	{
-	// 		breakpoint: 768,
-	// 		settings: {
-	// 			slidesToShow: 2,
-	// 			arrows: false
-	// 		}
-	// 	},
-	// 	{
-	// 		breakpoint: 480,
-	// 		settings: {
-	// 			slidesToShow: 1,
-	// 			arrows: false
-	// 		}
-	// 	}]
-	// });
+	$('.product-carousel-4').slick({
+		speed: 1000,
+		slidesToShow: 4,
+		adaptiveHeight: true,
+		prevArrow: '<button type="button" class="slick-prev"><i class="pe-7s-angle-left"></i></button>',
+		nextArrow: '<button type="button" class="slick-next"><i class="pe-7s-angle-right"></i></button>',
+		responsive: [{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 3
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,
+				
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+				// arrows: false
+			}
+		}]
+	});
 
 
 	// product carousel active
-	// $('.product-carousel-4_2').slick({
-	// 	speed: 1000,
-	// 	slidesToShow: 4,
-	// 	rows: 2,
-	// 	adaptiveHeight: true,
-	// 	prevArrow: '<button type="button" class="slick-prev"><i class="pe-7s-angle-left"></i></button>',
-	// 	nextArrow: '<button type="button" class="slick-next"><i class="pe-7s-angle-right"></i></button>',
-	// 	responsive: [{
-	// 		breakpoint: 992,
-	// 		settings: {
-	// 			slidesToShow: 3
-	// 		}
-	// 	},
-	// 	{
-	// 		breakpoint: 768,
-	// 		settings: {
-	// 			slidesToShow: 2,
-	// 			arrows: false,
-	// 			rows: 1
-	// 		}
-	// 	},
-	// 	{
-	// 		breakpoint: 480,
-	// 		settings: {
-	// 			slidesToShow: 1,
-	// 			arrows: false,
-	// 			rows: 1
-	// 		}
-	// 	}]
-	// });
+	$('.product-carousel-4_2').slick({
+		speed: 1000,
+		slidesToShow: 4,
+		rows: 2,
+		adaptiveHeight: true,
+		prevArrow: '<button type="button" class="slick-prev"><i class="pe-7s-angle-left"></i></button>',
+		nextArrow: '<button type="button" class="slick-next"><i class="pe-7s-angle-right"></i></button>',
+		responsive: [{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 3
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,
+				arrows: false,
+				rows: 1
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				slidesToShow: 1,
+				arrows: false,
+				rows: 1
+			}
+		}]
+	});
 
 
 	// group product carousel active
@@ -407,7 +407,6 @@
 	}
 	
 })(jQuery);
-
 
 document.addEventListener(
 	'DOMContentLoaded', 
