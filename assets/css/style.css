@@ -744,7 +744,7 @@ table tbody {
 
 @media only screen and (max-width: 767.98px) {
   .slick-arrow-style__append button.slick-arrow  {
-   margin-top: 230px;
+   /* margin-top: 230px; */
    right: 200px  !important; 
   }
   .slick-arrow-style__append button.slick-arrow.slick-prev {
@@ -754,7 +754,7 @@ table tbody {
     margin-top: 50px;
   }
 }
-@media only screen and (max-width: 48px) {
+/* @media only screen and (max-width: 48px) {
   .slick-arrow-style__append button.slick-arrow  {
    margin-top: 230px;
    right: 150px  !important; 
@@ -762,7 +762,7 @@ table tbody {
   .slick-arrow-style__append button.slick-arrow.slick-prev {
     right: 220px  !important; 
   }
-}
+} */
 
 /* ----scroll to top css start ----*/
 .scroll-top {
